@@ -1,0 +1,122 @@
+.container{
+   max-width: 100%;
+   margin: auto;
+   padding: 0;
+}
+
+.navbar .container{
+    text-align: center;
+    display: block;
+}
+
+
+.nav-content ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Showcase */
+.showcase-content{
+    line-height: 1.1;
+    padding: 50px;
+}
+.showcase{
+    height: 500px;
+}
+
+
+/* Home info */
+
+.home-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-info .home-info-img{
+    width: 100%;
+    height:450px;
+}
+
+.home-info-content{
+    max-width: 100%;
+    height: 400px;
+    padding: 50px 50px;
+}
+
+
+/* Features */
+
+.features{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*
+*********************************************************************************************************************************************************************** */
+
+.about-info {
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.about-info .left-info{
+    max-width: 100%;
+}
+
+.right-info{
+    margin-right: 25%;
+}
+
+.left-info h1{
+    text-align: center;
+}
+
+/* Customer reviews */
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.review p{
+    padding-top: 10px;
+}
+
+.review img{
+    width: 25%;
+}
+
+
+/*
+************************************************************************************************************************************************* 
+*/
+
+.contact-form{
+    margin: 10px 10px;
+}
+
+.contact-form div>label{
+    margin-bottom: 5px;
+}
+
+.contact-details{
+    padding: 30px;
+}
+
+.contact-details .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-details .location,
+.phone,
+.email{
+    margin-bottom: 35px;
+    border-bottom: 1px solid white;
+}
